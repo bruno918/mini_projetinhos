@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+table {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    
+
+}
+tr { 
+    text-align: start;
+}
+img {
+    max-width: 600px;
+    max-height: 600px;
+width: auto;
+height: auto;
+margin-top: 100px;
+margin: 85px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 90px;
+    position: absolute; top: 130px; left: 20px
+
+}
+
+
+* {
+    margin: 0cm;
+}
+h1 {
+    text-align: center;
+    background-color: azure;
+    color: black;
+    font-size: 50px;
+}
+p {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 50px;
+}
+#texto {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 20px;
+
+}
+td {
+    font-size: 25px;
+    table-layout: fixed;
+    padding: 20px;
+}
