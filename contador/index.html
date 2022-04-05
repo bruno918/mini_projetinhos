@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="bruno.js"></script>
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <h1>Contador de Letras</h1>
+<div id="tabela">
+<form name="form_main">
+  <fieldset>
+    <legend>Contador</legend>
+    <label for="text">Texto:</label> <br>
+    <textarea name="text" id="text" cols="30" rows="10" oninput="countText()">
+    </textarea><br>
+    <label for="characters">Número de Caracteres: </label>
+    <span id="characters"></span><br>
+    <label for="words">Palavras: </label>
+    <span id="words"></span><br>
+    <label for="rows">Linhas: </label>
+    <span id="rows"></span><br>
+  </fieldset>
+</form>
+</div>
+</body>
+</html>
